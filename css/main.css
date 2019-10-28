@@ -1,0 +1,49 @@
+body{
+  margin: 0px;
+  background-color: #e6e6e6;
+}
+
+.hide {
+  opacity: 0;
+}
+.show {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+header{
+  margin: 0px;
+  background-color: #757575;
+  height: 60px;
+}
+
+h1{
+  padding: 12px 10px;
+  font-family: 'Roboto', sans-serif;
+  font-style: black 900;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+#boiling-temp, #freezing-temp, #water-temp{
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  font-style: black 900;
+}
+
+h2{
+  padding: 0px 10px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-style: medium 500;
+}
+
+p{
+  padding: 0px 10px;
+  font-family: 'Roboto', sans-serif;
+  font-style: regular 400;
+  background-color: white;
+  text-align: center;
+}
